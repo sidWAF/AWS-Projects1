@@ -1,0 +1,59 @@
+@NonCPS
+boolean isMyDirChanged() {
+  for (changeLogSet in currentBuild.changeSets) { 
+    for (entry in changeLogSet.getItems()) { // for each commit in the detected changes
+      for (file in entry.getAffectedFiles()) {
+        println(file.getPath() + ":lafa;sdlifjadoifj")
+        if (file.getPath().matches("vote(/.*)")) {
+          return true
+        }
+      }
+    }
+  }
+  return false
+}
+
+
+node {
+
+    def app
+
+    stage('Clone repository') {
+      
+
+        checkout scm
+    }
+
+    stage('Build image') {
+        if (isMyDirChanged()) {
+
+          app = docker.build("wpatterson134/test_vote", "-f ./vote/Dockerfile .")
+        } else {
+            currentBuild.result = "SUCCESS"
+            return
+    }
+}
+    if (currentBuild.result == "SUCCESS") {
+        return
+    }
+
+    stage('Test image') {
+  
+
+        app.inside {
+            sh 'echo "Tests passed"'
+        }
+    }
+
+    stage('Push image') {
+        
+        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
+            app.push("${env.BUILD_NUMBER}")
+        }
+    }
+    
+    stage('Trigger ManifestUpdate') {
+                echo "triggering updatemanifestjob"
+                build job: 'updatemanifest', parameters: [string(name: 'DOCKERTAG', value: env.BUILD_NUMBER)]
+        }
+}
