@@ -1,5 +1,11 @@
-Example Voting (Instavote) App
+Distributed Customer Feedback Application
 =========
+
+Overview
+---------------
+Distributed microservice applications are becoming the premier architecture in the software and I.T industry due to their scalability, high availablity, and versatility. Microservice architecture allows applications to scale independently of each other as well as fail independently of each other. In addition, developers can build microservices independently of other teams and build their microservices how they choose. This customer feedback application is a perfect example of this. The frontend apps are written with JavaScript and Python, and the backend controllers are written in Java and NodeJS. Redis provides a caching layer for collecting incoming customer feedback. Last but not least, the PostgreSQL database resides in a container just like the rest of the microservices.
+
+Each microservice, as mentioned, exists independently of the others, living inside their containers. To orchestrate and manage multiple containers, I used Kubernetes on top of AWS EKS. You'll find the Terraform code for starting up the EKS cluster in this repo. You will also find the application code, their Dockerfiles, and also Jenkins build automation code for automated code integration and deployment into your EKS cluster. 
 
 Getting started
 ---------------
