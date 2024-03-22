@@ -3,6 +3,7 @@ Example Voting (Instavote) App
 
 Getting started
 ---------------
+Download and install Terraform (https://developer.hashicorp.com/terraform/install). Installation should be relatively painless with a package manager like Homebrew or Chocolatey. Once installed, you can build the required Kubernetes infrastructure in AWS using the files in the Terraform folder.
 
 Download [Docker](https://www.docker.com/products/overview). If you are on Mac or Windows, [Docker Compose](https://docs.docker.com/compose) will be automatically installed. On Linux, make sure you have the latest version of [Compose](https://docs.docker.com/compose/install/). If you're using [Docker for Windows](https://docs.docker.com/docker-for-windows/) on Windows 10 pro or later, you must also [switch to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers).
 
