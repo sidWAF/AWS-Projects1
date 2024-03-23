@@ -18,10 +18,10 @@ def lambda_handler(event, context):
     payload = {
         "ticket": {
             "comment": {
-                "body": "The smoke is very colorful."
+                "body": "Customer experience was unsatisfactory."
             },
             "priority": "urgent",
-            "subject": "My printer is on fire!"
+            "subject": "Customer experience was unsatisfactory."
         }
     }
     headers = {
