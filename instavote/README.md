@@ -34,11 +34,11 @@ Architecture
 
 ![Architecture diagram](architecture.png)
 
-* A Python webapp which lets you vote between two options
-* A Redis queue which collects new votes
-* A .NET worker which consumes votes and stores them in…
+* A Python webapp which lets you select between good or bad service
+* A Redis queue which collects new feedback
+* A .NET worker which consumes feedback and stores it...
 * A Postgres database backed by a Docker volume
-* A Node.js webapp which shows the results of the voting in real time
+* A Node.js webapp which shows the results of the feedback in real time
 
 GitOps Architecture
 -----
