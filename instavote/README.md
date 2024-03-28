@@ -49,4 +49,4 @@ GitOps Architecture
 Note
 ----
 
-The voting application only accepts one submission per client. It does not register 2nd and 3rd submissions if a first submission has already been submitted from a client.
+This application only accepts one submission per client. It does not register 2nd and 3rd submissions if a first submission has already been submitted from a client.
