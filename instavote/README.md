@@ -43,7 +43,7 @@ Architecture
 GitOps Architecture
 -----
 
-(GitOps.png)
+![Gitops diagram](GitOps.png)
 
 
 Note
