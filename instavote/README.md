@@ -21,20 +21,13 @@ Download and install ArgoCD into your Kubernetes cluster: https://argo-cd.readth
 
 You will use Jenkins as well as ArgoCD to deploy new code, build that code, and finally deploy that code to the cluster.
 
-Run in this directory:
-```
-docker-compose up
-```
-The app will be running at [http://localhost:5000](http://localhost:5000), and the results will be at [http://localhost:5001](http://localhost:5001).
+Jenkins
+-----
+Once Jenkins has been installed on your Jenkins virtual machine, go ahead and build a new pipeline job for each microservice. Each microservice will have its own Jenkins pipeline and Jenkinsfile, which you can find in each microservices' respective folder. 
 
-Alternately, if you want to run it on a [Docker Swarm](https://docs.docker.com/engine/swarm/), first make sure you have a swarm. If you don't, run:
-```
-docker swarm init
-```
-Once you have your swarm, in this directory run:
-```
-docker stack deploy --compose-file docker-stack.yml vote
-```
+ArgoCD
+-----
+ArgoCD automatically pulls configurations from Kubernetes manifest files into your cluster. As long as ArgoCD is installed in your cluster and has access to your Yaml config files, ArgoCD will pull your applications into your cluster and attempt to start them. I've stored all the config files in /deploy. Make sure your ArgoCD client follows the path to this folder. 
 
 Architecture
 -----
