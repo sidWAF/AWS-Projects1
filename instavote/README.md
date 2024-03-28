@@ -15,9 +15,9 @@ Download and install Terraform (https://developer.hashicorp.com/terraform/instal
 
 Download [Docker](https://www.docker.com/products/overview). If you are on Mac or Windows, [Docker Compose](https://docs.docker.com/compose) will be automatically installed. On Linux, make sure you have the latest version of [Compose](https://docs.docker.com/compose/install/). If you're using [Docker for Windows](https://docs.docker.com/docker-for-windows/) on Windows 10 pro or later, you must also [switch to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers).
 
-Download and install Jenkins on an Amazon EC2 virtual machine: [https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/]
+Download and install Jenkins on an Amazon EC2 virtual machine: https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 
-Download and install ArgoCD into your Kubernetes cluster: [https://argo-cd.readthedocs.io/en/stable/getting_started/]
+Download and install ArgoCD into your Kubernetes cluster: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
 You will use Jenkins as well as ArgoCD to deploy new code, build that code, and finally deploy that code to the cluster.
 
