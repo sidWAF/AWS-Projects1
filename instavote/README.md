@@ -19,7 +19,7 @@ Download and install Jenkins on an Amazon EC2 virtual machine: https://www.jenki
 
 Download and install ArgoCD into your Kubernetes cluster: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
-You will use Jenkins as well as ArgoCD to deploy new code, build that code, and finally deploy that code to the cluster. Feel free to take a look at the GitOps pipeline for a better understanding of how the code is built in Jenkins, deployed to Dockerhub, and then pushed back as a Docker image into the Kubernetes manifest files.
+You will use Jenkins as well as ArgoCD to deploy new code, build that code, and finally deploy that code to the cluster. Feel free to take a look at the GitOps pipeline below for a better understanding of how the code is built in Jenkins, deployed to Dockerhub, and then pushed back as a Docker image into the Kubernetes manifest files.
 
 Jenkins
 -----
