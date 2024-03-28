@@ -14,7 +14,7 @@ def lambda_handler(event, context):
             'key': 'value'
         }
     }
-    url = "https://google5261.zendesk.com/api/v2/tickets"
+    url = "https://your_zendesk_handle.zendesk.com/api/v2/tickets"
     payload = {
         "ticket": {
             "comment": {
