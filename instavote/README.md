@@ -27,7 +27,7 @@ Once Jenkins has been installed on your Jenkins virtual machine, go ahead and bu
 
 ArgoCD
 -----
-ArgoCD automatically pulls configurations from Kubernetes manifest files into your cluster. As long as ArgoCD is installed in your cluster and has access to your Yaml config files, ArgoCD will pull your applications into your cluster and attempt to start them. I've stored all the config files in /deploy. Make sure your ArgoCD client follows the path to this folder. 
+ArgoCD automatically pulls configurations from Kubernetes manifest files into your cluster. As long as ArgoCD is installed in your cluster and has access to your .yaml config files, ArgoCD will pull your applications into your cluster and attempt to start them. I've stored all the config files in /deploy. Make sure your ArgoCD client follows the path to this folder. 
 
 Architecture
 -----
