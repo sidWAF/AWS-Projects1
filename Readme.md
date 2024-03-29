@@ -11,16 +11,8 @@ Welcome to the AWS Projects repository! This repository is a collection of cloud
 
 ## Project List
 
-1. **EC2 Instance Management**: This project demonstrates how to launch, manage, and terminate Amazon EC2 instances programmatically using the AWS SDK.
+1. **Distributed Customer Feedback Application**: This project demonstrates how to launch a customer feedback application on Kubernetes. In addition, this project implements a complete CI/CD pipeline with Jenkins, Dockerhub, and ArgoCD. Finally, an Eventbridge messaging system sends actionable alerts to Zendesk in response to any negative customer feedback.
    
-2. **S3 Bucket Operations**: Learn how to perform basic operations like creating buckets, uploading files, and setting permissions using Amazon S3.
-
-3. **Lambda Functions**: Explore serverless computing with AWS Lambda by deploying functions for various use cases such as image processing, data transformation, and webhook handling.
-
-4. **DynamoDB Integration**: Understand NoSQL database concepts by working with Amazon DynamoDB. This project covers table creation, data insertion, querying, and indexing.
-
-5. **AWS CLI Automation**: Automate common AWS tasks using the AWS Command Line Interface (CLI). Examples include setting up IAM users, configuring security groups, and managing EC2 instances.
-
 ## Getting Started
 
 To get started with any of the projects:
@@ -35,9 +27,6 @@ To get started with any of the projects:
 
 3. Follow the instructions provided in the project's README.md file for setup and usage.
 
-## Contributing
-
-We welcome contributions from the community! If you have an AWS project you'd like to share or if you find any bugs or improvements to existing projects, please feel free to open an issue or submit a pull request. Make sure to follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
