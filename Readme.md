@@ -9,7 +9,7 @@ Welcome to the AWS Projects repository! This repository is a collection of cloud
 3. [Contributing](#Contributing)
 4. [License](#License)
 
-## Project List
+Project List
 
     EC2 Instance Management: This project demonstrates how to launch, manage, and terminate Amazon EC2 instances programmatically using the AWS SDK.
 
