@@ -19,7 +19,7 @@ Once Docker is installed, run this command on your Jenkins VM: `sudo chmod 666 /
 
 Make sure that Git is installed in your Jenkins instance as well. 
 
-Download and install ArgoCD into your Kubernetes cluster: https://argo-cd.readthedocs.io/en/stable/getting_started/
+Once your EKS cluster is running, download and install ArgoCD into your cluster: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
 You will use Jenkins as well as ArgoCD to deploy new code, build that code, and finally deploy that code to the cluster. Feel free to take a look at the GitOps pipeline below for a better understanding of how the code is built in Jenkins, deployed to Dockerhub, and then pushed back as a Docker image into the Kubernetes manifest files.
 
