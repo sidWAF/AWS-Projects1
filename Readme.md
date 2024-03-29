@@ -4,10 +4,10 @@ Welcome to the AWS Projects repository! This repository is a collection of cloud
 
 Table of Contents
 
-    [Project List](#Project List)
-    [Getting Started](#Getting Started)
-    [Contributing](#Contributing)
-    [License](#License)
+    1. [Project List](#Project List)
+    2. [Getting Started](#Getting Started)
+    3. [Contributing](#Contributing)
+    4. [License](#License)
 
 ## Project List
 
