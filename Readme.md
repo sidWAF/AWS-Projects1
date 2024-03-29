@@ -1,14 +1,15 @@
 AWS Projects Repository
 
 Welcome to the AWS Projects repository! This repository is a collection of cloud computing projects implemented using Amazon Web Services (AWS). Whether you're a beginner exploring cloud computing concepts or an experienced AWS practitioner looking for practical examples, you'll find a variety of projects here to learn from and contribute to.
+
 Table of Contents
 
-    Project List
-    Getting Started
-    Contributing
-    License
+    [Project List](#Project List)
+    [Getting Started](#Getting Started)
+    [Contributing](#Contributing)
+    [License](#License)
 
-Project List
+## Project List
 
     EC2 Instance Management: This project demonstrates how to launch, manage, and terminate Amazon EC2 instances programmatically using the AWS SDK.
 
