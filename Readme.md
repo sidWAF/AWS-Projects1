@@ -9,7 +9,7 @@ Welcome to the AWS Projects repository! This repository is a collection of cloud
 3. [Contributing](#Contributing)
 4. [License](#License)
 
-Project List
+## Project List <a name="Project List"></a>
 
     EC2 Instance Management: This project demonstrates how to launch, manage, and terminate Amazon EC2 instances programmatically using the AWS SDK.
 
@@ -21,7 +21,7 @@ Project List
 
     AWS CLI Automation: Automate common AWS tasks using the AWS Command Line Interface (CLI). Examples include setting up IAM users, configuring security groups, and managing EC2 instances.
 
-Getting Started
+## Getting Started <a name="Getting Started"></a>
 
 To get started with any of the projects:
 
@@ -35,7 +35,7 @@ To get started with any of the projects:
 
     Follow the instructions provided in the project's README.md file for setup and usage.
 
-Contributing
+## Contributing <a name="Contributing"></a>
 
 We welcome contributions from the community! If you have an AWS project you'd like to share or if you find any bugs or improvements to existing projects, please feel free to open an issue or submit a pull request. Make sure to follow our contribution guidelines.
 License
