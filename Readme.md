@@ -6,7 +6,6 @@ Welcome to the AWS Projects repository! This repository is a collection of cloud
 
 - [Project List](#project-list)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Project List
