@@ -13,7 +13,9 @@ Getting started
 ---------------
 Download and install Terraform (https://developer.hashicorp.com/terraform/install). Installation should be relatively painless with a package manager like Homebrew for Mac or Chocolatey for Windows. Once installed, you can build the required Kubernetes infrastructure in AWS using the files in the Terraform folder.
 
-Download and install Jenkins on an Amazon EC2 virtual machine: https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/. Make sure that Docker is installed on this VM: https://stackoverflow.com/questions/76194079/how-to-install-docker-on-amazon-linux-2023. Once Docker is installed, give execute permissions to the Docker daemon with the following command: 
+Download and install Jenkins on an Amazon EC2 virtual machine: https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/. Make sure that Docker is installed on this VM: https://stackoverflow.com/questions/76194079/how-to-install-docker-on-amazon-linux-2023. 
+
+Once Docker is installed, give execute permissions to the Docker daemon with the following command: sudo chmod 666 /var/run/docker.sock 
 
 Download and install ArgoCD into your Kubernetes cluster: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
