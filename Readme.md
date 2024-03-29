@@ -2,12 +2,12 @@ AWS Projects Repository
 
 Welcome to the AWS Projects repository! This repository is a collection of cloud computing projects implemented using Amazon Web Services (AWS). Whether you're a beginner exploring cloud computing concepts or an experienced AWS practitioner looking for practical examples, you'll find a variety of projects here to learn from and contribute to.
 
-Table of Contents
+# Table of Contents
 
-    1. [Project List](#Project List)
-    2. [Getting Started](#Getting Started)
-    3. [Contributing](#Contributing)
-    4. [License](#License)
+1. [Project List](#Project List)
+2. [Getting Started](#Getting Started)
+3. [Contributing](#Contributing)
+4. [License](#License)
 
 ## Project List
 
