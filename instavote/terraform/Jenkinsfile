@@ -17,7 +17,7 @@ pipeline {
         $class: 'AmazonWebServicesCredentialsBinding', 
         accessKeyVariable: 'AWS_ACCESS_KEY_ID', 
         secretKeyVariable: 'AWS_SECRET_ACCESS_KEY',
-        credentialsId: '486579478686'
+        credentialsId: 'wp-aws-training-general'
     ]]) {
         sh 'terraform ${action} --auto-approve'
     }
