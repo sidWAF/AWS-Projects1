@@ -8,9 +8,12 @@ pipeline {
         }
         stage('terraform init') {
             steps {
-                sh 'cd ./instavote/terraform'
-                sh 'ls'
-                sh 'terraform init'
+                dir('./instavote/terraform/') {
+                    script {
+                        sh 'ls'
+                        sh 'terraform init'
+                    }
+                }
             }
         }
         stage('terraform apply') {
