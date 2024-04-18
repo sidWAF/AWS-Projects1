@@ -8,8 +8,8 @@ pipeline {
         }
         stage('terraform init') {
             steps {
+                sh 'cd ./instavote/terraform
                 sh 'ls'
-                sh 'pwd'
                 sh 'terraform init'
             }
         }
